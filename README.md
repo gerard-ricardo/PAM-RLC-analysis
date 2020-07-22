@@ -10,7 +10,7 @@ Step 1) Labelling
 
 Step 2)
 Importing the folder of RLC. 
-1) Set working directory to folder > Run this code . Note that if you have delimited you read_delim(filename, delim = ';'). I have the unique ID saved as 'disc'
+Note that if you have delimited you read_delim(filename, delim = ';'). I have the unique ID saved as 'disc'
 
 Step 3) 
 Importing the environmental treatment data. 
