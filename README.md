@@ -1,7 +1,7 @@
 # PAM-RLC-analysis
 
 
-This is a code to automate rapid light curves analysis from Pulse Amplitude Modulation Fluorometry (PAM). 
+This is a code to automate import and analysis of Pulse Amplitude Modulation Fluorometry (PAM) Rapid Light Curve data from Walz WinControl csv files.   
 
 Step 1) Labelling
 1)Each RLC run needs to be saved in a csv file.
