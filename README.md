@@ -9,19 +9,19 @@ Step 1) Labelling
 
 
 Step 2)
-IMprting folder of RLC. 
-1) Set working directory to folder > RUn this code . Note that if you have delimited you read_delim(filename, delim = ';'). I have the unique ID saved as 'disc'
+Importing the folder of RLC. 
+1) Set working directory to folder > Run this code . Note that if you have delimited you read_delim(filename, delim = ';'). I have the unique ID saved as 'disc'
 
-library(tidyr)
-library(readr)
-library(dplyr)
-library(plyr)
-read_csv_filename1 <- function(filename){
-    ret <- read_csv(filename)
-    ret$disc <- filename #EDIT
-    ret
-}
-filenames = list.files(full.names = TRUE)
-data1 <- ldply(filenames, read_csv_filename1)
-head(data1)
-options(scipen = 999)  # turn off scientific notation
+Step 3) 
+Importing the environmental treatment data. 
+Note: As you likely subsampled for the RLC curves, this code uses left_join to merge the two data.frames. You do not need them to match, as long as each has the same unique ID
+
+
+Step 4) Create an rETR column and data clean for anomalies
+
+
+Step 5) Get starting values
+1) Run the SSplatt.my function. This is from the modified from the Platt package (they did all the hard work). 
+
+
+Step 6) Run the nonlinear models and derive all the RLC parameters
