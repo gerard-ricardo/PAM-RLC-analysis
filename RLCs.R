@@ -102,8 +102,6 @@ p1
 
 # batch fit ---------------------------------------------------------------
 
-
-
 # Get starting values for all IDs
 starts <- data1_l %>%
   group_by(id) %>%
