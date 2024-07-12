@@ -1,0 +1,4 @@
+h3 {
+  border-bottom: none; /* Remove the bottom border */
+  margin-bottom: 0.5em; /* Adjust space below the heading */
+}

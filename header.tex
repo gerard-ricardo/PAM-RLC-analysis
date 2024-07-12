@@ -1,0 +1,18 @@
+\usepackage{sectsty}
+\usepackage{titlesec}
+
+% Adjusts spacing for sections, subsections, and subsubsections
+\titlespacing{\section}{0pt}{*0}{*0}
+\titlespacing{\subsection}{0pt}{*0}{*0}
+\titlespacing{\subsubsection}{0pt}{*0}{*0}
+
+% If you need to adjust horizontal space or formatting of subsubsections:
+\titleformat{\subsubsection}
+  {\normalfont\normalsize\bfseries}{\thesubsubsection}{1em}{}
+
+% Define new environment for tight spacing around code chunks
+\newenvironment{tightspacing}{\vspace{-0.5em}}{\vspace{-0.5em}}
+
+% Reduce space before and after paragraphs
+\setlength{\parskip}{0pt}
+\setlength{\parindent}{1em}
